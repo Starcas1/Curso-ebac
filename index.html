@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto bootstrap-avançado</title>
+    <link rel="stylesheet" href="Libs/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Navegação -->
+  <nav class="navbar bg-white box-shadow navbar-expand-md fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo1.png" width="150px" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Heroes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              FAQ
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Press Kit</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Creator program</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2 cor-destaque" href="#">Wishlist</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo 1 -->
+  <main>
+    <!-- cabecalho -->
+     <section id="conteudo-inicial">
+        <div class="container-fluid">
+            <div class="row bg-cor align-items-center">
+              <div class="col-xl-5 text-white mt-md-5 p-5">
+                  <p class=""><img src="herois/pixel art.gif" width="100%" alt="Gifsobreojogo"></p>
+                  <h1>Discover Drakantos, a<span class="cor-destaque"> free-to-play MMORPG</span> that brings a unique pixel art style to an online cooperative experiences</h1>
+                  <p> Explore the fantastical world of Derid, brought to life through captivating voice-acting cinematics. Play online with friends and experience a seamless blend of gameplay and narrative as you progress through the game.</p>
+                  <a class="btn btn-outline-primary text-white" href="#">Wishlist now!</a>
+              </div>
+      
+              <div class="col-xl-7 p-0">
+                  <div class="header-container">
+                      <div class="video-container">
+                         <video preload ="true" controls autoplay loop = "loop" volume = "1" style="width: 100%;
+                         height: auto;">
+                              <source src = "herois/Drakantos ｜ Official Gameplay Trailer.mp4" type = "video/mp4" >
+                              </video>
+                       </div> 
+                     </div>
+              </div>
+     </section>
+
+
+    <!-- Benefícios -->
+    <section class="text-center py-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="my-5">
+            <h2 class="display-4">About game</h2>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="herois/21heros.gif" width="100%" alt="herogif">
+            </div>
+            <p class="mb-4">Explore different gameplay styles! Each hero in Drakantos stands out with their unique mechanics, personality traits, and story roles. Breaking away from traditional MMORPG class systems, our heroes bring a new approach to cooperative gameplay. With each update, we will introduce new heroes, ensuring an ever-evolving landscape of strategies and dynamics for players to explore and dominate.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="herois/Missoes.gif" width="100%" alt="missiongif">
+            </div>
+            <p class="mb-4">Form teams with your friends, other adventurers or even go alone and explore dynamic dungeons in order to evolve your heroes, obtain rare items and better equipment. These missions change over time in the game, introducing a new range of enemies, bosses, resources, traps and objectives. During the dungeon there are chances of special events and twists, making each experience unique and challenging.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="herois/pvp.gif" width="100%" alt="PVPgif">
+            </div>
+            <p class="mb-4">Drakantos offers more than a cooperative journey. For those looking to test their skills against other players, our PvP system provides the perfect battleground. With a diversity of game modes, a ranked duel system and regular tournaments, the opportunity to become a champion in our online community is within your reach! In PvP, only skills and strategies matter; everyone's attributes will be equalized to ensure a competitive environment.</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="herois/Yuki_Yura.gif" width="100%" alt="Gifunique">
+            </div>
+            <p class="mb-4">Drakantos isn't just a place for combat; It's also a stage to express your unique style! Unlock exclusive icons, cool titles and skins to further customize your profile and heroes. Collect dozens of charming pets and liven up your interactions with more than 30 emotes per hero, each with unique lines!</p>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div>
+              <img class="mb-3" src="herois/Ojore_Thomas.gif" width="100%" alt="Featuresgif">
+            </div>
+            <p class="mb-4">
+                <ul class="ojorelist">
+                    <li><strong>Skill Customization:</strong> Try different play styles with the same hero, modifying their abilities with orbs and artifacts.</li>
+                    <li><strong>Stream System:</strong> Stream your game progress or watch others in real time!</li>
+                    <li><strong>Houses:</strong>Get your own house and decorate it your way.</li>
+                    <li><strong>Market:</strong>Trade rare items, collectibles, and more with other players.</li>
+                    <li><strong>And much more:</strong>Highscores, Day and Night Cycles, Crafting, etc.</li>
+                </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blockquote -->
+    <section id="home-quote" class="p-md-5">
+      <blockquote class="blockquote text-center text-white p-md-5 p-3">
+        <p class="display-4">
+          <em>“I will dominate the world and with the power of the dragon jewel, I will control all humans!!”</em>
+        </p>
+      </blockquote>
+    </section>
+
+    <section id="founder" class="text-center py-5">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="my-4">
+            <p class="mb-2 h6"></p>
+            <h2 class="display-4">Starter Pack</h2>
+          </div>
+          <div class="col-lg-5 mb-4 mb-md-0">
+            <div class="card text-start">
+              <div class="card-body bg-light rounded p-4 box-shadow">
+                <h3 class="card-title text-start">Founder</h3>
+                <ul class="lista-plano mb-2">
+                  <li>3 days early access</li>
+                  <li>all heroes unlocked</li>
+                  <li>Exclusive skins</li>
+                  <li class="mb-4">exclusive mount</li>
+                </ul>
+                <div class="row align-items-center">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-primary btn-lg cor-destaque btn-block">Comprar</button>
+                  </div>
+                  <div class="col">
+                    <span class="h4">R$ 500.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section class="container-fluid text-center mb-5">
+      <div class="row bg-cor justify-content-center">
+        <div class="col-md-7 p-0">
+          <div id="carouselGaleria" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/bar.png" class="d-block w-100" alt="Bar">
+              </div>
+              <div class="carousel-item">
+                <img src="img/gryphon.png" class="d-block w-100" alt="Grifo">
+              </div>
+              <div class="carousel-item">
+                <img src="img/mounting.png" class="d-block w-100" alt="Montarias">
+              </div>
+              <div class="carousel-item">
+                <img src="img/ritual.png" class="d-block w-100" alt="Ritual">
+              </div>
+              <div class="carousel-item">
+                <img src="img/fotosnova0019.png" class="d-block w-100" alt="Reino Elfico">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+  </main>
+</body>
+<script src="Libs/bootstrap.bundle.min.js"></script>
+</html>
